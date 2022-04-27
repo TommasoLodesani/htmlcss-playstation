@@ -40,8 +40,13 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
   
 }
+
+
 
 
 
@@ -72,5 +77,22 @@ header{
     padding: 8px 15px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
+
+
+#carosel .red{
+    min-height: 100px;
+    background-color: red;
+    border: solid 1px white;
+}
+
+
+#carosel .container .row img{
+    max-width: 100%;
+}
+
+
+#playstation .title{
+    text-align: center;
+}
 
