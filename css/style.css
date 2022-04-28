@@ -6,6 +6,8 @@ a{
     text-decoration: none;
 }
 
+/* classi comuni */
+
 
 .button {
     background-color: #cd3d0f;
@@ -23,6 +25,31 @@ a{
 
 .button.blu{
     background-color: #2d64e6;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    margin-bottom: 30px;
+}
+
+.title h6{
+    color: #2d64e6;
+}
+
+.title h5{
+    color: #727272;
+    font-weight: bold;
+}
+
+.titles_btn h5{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #727272;
+    
 }
 
 /* debug row */
@@ -125,23 +152,6 @@ header{
 }
 
 
-#playstation .title{
-    text-align: center;
-}
-
-#playstation .title h1{
-    margin-bottom: 30px;
-}
-
-#playstation .title h6{
-    color: #2d64e6;
-}
-
-#playstation .title h4{
-    color: #727272;
-}
-
-
 #playstation .product{
     text-align: center;
 }
@@ -196,4 +206,16 @@ header{
 
 #nuove_uscite .game img{
     margin-bottom: 15px;
+}
+
+
+/* esplora play */
+
+#esplora_play img{
+    max-width: 100%;
+}
+
+#esplora_play .titles_btn.short h5{
+    margin-bottom: 25px;
+
 }
