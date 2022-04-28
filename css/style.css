@@ -133,6 +133,14 @@ header{
     margin-bottom: 30px;
 }
 
+#playstation .title h6{
+    color: #2d64e6;
+}
+
+#playstation .title h4{
+    color: #727272;
+}
+
 
 #playstation .product{
     text-align: center;
@@ -155,4 +163,37 @@ header{
 
 #jumbotron.ms_jumbo_bottom {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+
+/* nuove uscite */
+
+
+#nuove_uscite{
+    /* padding-top: 35px; */
+    padding-bottom: 83px;
+    background-color: #1f1f1f;
+}
+
+#nuove_uscite h2,#nuove_uscite h4,#nuove_uscite h6{
+    color: white;
+    font-weight: bold;
+}
+
+#nuove_uscite .sub_title h2{
+    margin-bottom: 22px;
+}
+
+
+#nuove_uscite .game img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+#nuove_uscite .game a{
+    color: white;
+}
+
+#nuove_uscite .game img{
+    margin-bottom: 15px;
 }
