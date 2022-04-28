@@ -6,7 +6,9 @@ a{
     text-decoration: none;
 }
 
-
+ul{
+    list-style-type: none;
+}
 
 /* classi comuni */
 
@@ -335,5 +337,15 @@ footer .caption_footer a{
     color: white;
     font-size: 15px;
     font-weight: bold;
+}
+
+footer ul a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer ul li{
+    padding: 5px 0;
 }
 
