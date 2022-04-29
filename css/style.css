@@ -124,6 +124,25 @@ header{
 }
 
 
+#header_bottom nav .btn-outline-success{
+    color: white;
+    border-color: white;
+}
+
+#header_bottom nav .btn-outline-success:hover{
+    background-color: black;
+}
+
+#header_bottom nav .lens{
+    height: 23px;
+    padding-left: 25px;
+}
+
+#header_bottom nav a{
+   font-weight: bolder;
+    color: black;
+}
+
 
 
 /* jumbotron top */
